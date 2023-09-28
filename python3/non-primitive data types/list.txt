@@ -1,0 +1,32 @@
+#list
+
+l=[12,34,65.67,809,"python"]
+print(l)
+l.append("amplifier")    #append-add the elemnent one in list
+print(l)
+
+l.extend([12,32,45])        #extend-add the multiple element in the list
+print(l)
+
+print(l[3])         #index-display the index value
+
+l.pop(3)            #pop-remnove the element displaying the index value
+print(l)
+
+l.remove(12)        #remove-remove the eleemnt without displaying index value
+print(l)
+
+l.reverse()         #reverse-revrese th list
+print(l)
+
+l.sort()            #sort the list
+print(l)
+
+
+print(l.count("count",34))
+
+#specical  function
+
+#length of list
+print(len(l))
+

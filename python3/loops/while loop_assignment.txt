@@ -1,0 +1,37 @@
+#line by line executed the list
+'''a=0
+lst=[45,7,78,90,34,24]
+while(a<len(lst)):
+    print(lst[a])
+
+    a=a+1
+'''
+
+
+i=0
+lst=[12,33,54,65,76,87]
+while(i<len(lst)):
+    if(lst[i]%2==0):
+        print("no is",lst([i]),"even")
+    else:
+        print("no is",lst([i]),"even")
+
+    i=i+1
+#line by line display to list
+
+'''a=0
+lst=[12,34,45,5,78,42,3]
+while(a>len[lst]):
+    print(lst[a])
+    a=a+1
+
+'''
+#even & odd numbers
+i=0
+lst=[23,45,78,97,75]
+while(i<len[lst]):
+    if(lst[i]%2==0):
+        print("even no",len[i])
+    else:
+        print("odd no",len[i])
+    i=i+1

@@ -1,0 +1,26 @@
+num=[129,245,678,905,345]
+for i in num:
+    if(i%5==0):
+        print("value is divisible by 5 " ,i)
+      
+    else:
+        print("num not found",i)
+
+
+#using for_else:
+num=[129,678,111,77,98]
+for i in num:
+    if(i%5==0):
+        print("value is divisible by 5")
+        break
+      
+else:
+    print("num not found")
+    
+
+dic={"NAME":"Bhagyashri","COLLAGE":"grwp,tasgaon","AGE":17,"mobile number":12345678901}
+print(dic)
+
+
+    
+        

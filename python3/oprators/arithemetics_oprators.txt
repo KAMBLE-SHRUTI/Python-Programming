@@ -1,0 +1,45 @@
+#-----arthemetic opertors
+
+#addition
+a=20
+b=20
+c=a+b
+print("addition is ",c)
+
+#substraction
+a=20
+b=14
+c=a-b
+print("subsrcation is ",c)
+
+#multipliction
+
+a=20
+b=45
+c=a*b
+print("multiplication",c)
+
+#division
+a=12
+b=4
+c=a/b
+print("division",c)
+
+#module
+a=10
+b=4
+c=a%b
+print("module is ",c)
+
+#Exponentiation
+a=4
+b=3
+c=a**b
+print("	Exponentiation",c)
+
+#Floor division
+a=4
+b=3
+c=a//b
+print("floor division",c)
+

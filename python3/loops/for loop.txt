@@ -1,0 +1,81 @@
+#for loop
+b=(12,23,45,67,89)
+print(b)
+for i in b:
+    print(i)
+
+exmple_1
+#addation of list using for loop
+sum=0
+a=(5,7,8,0,4)
+for i in (a):
+    sum=sum+i
+    print(sum)
+
+exmple_2
+a=0
+sum=0
+per=0
+for i in range(5):
+    m=int(input("enter your value"))
+    if(m<35):
+        a=1
+    sum=sum+m
+per=sum/5
+
+if(a==1):
+    print("fail with ATKT")
+elif(per>=75 and per<100):
+    print("frist class with dist")
+elif(per>=60 and per<75):
+    print("frist class ")
+elif(per>=50 and per<60):
+    print("second class")
+elif(per>=35 and per<50):
+    print("pass")
+elif(per>=0 and per<35):
+    print("fail")
+else:
+    print("invalid marks")
+
+Range_function
+#range function
+for  i in range(5):
+    print(i)
+
+for  x in range(10,20):
+    print(x)
+
+for  a in range(30,50,5):
+    print(a)
+exmple_1
+#even & odd number uisng range function
+for i in range(  20,30):
+     if(i%2==0):
+         print("even no ",i)
+     else:
+        print("odd no ",i)
+
+exmple_2
+#input  the 5 number and using append function
+a=[]
+for i in range(5):
+    n=int(input("take a value "))
+    a.append(n)
+    print(a)
+for  i in a:
+    print(i)
+exmple_3
+#addition of appending value
+a=[]
+sum=0
+for i in range(5):
+    n=int(input("take a value "))
+    sum=sum+n
+    a.append(n)
+print(a)
+print(sum)
+
+
+
+

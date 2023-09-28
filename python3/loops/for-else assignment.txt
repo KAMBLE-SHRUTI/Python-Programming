@@ -1,0 +1,15 @@
+info={101:"shruti",
+      102:"bhagyashri",
+      103:"payal",
+      104:"anuja",
+      105:"anushka",
+      106:"nikita",
+      107:"shewta",
+      108:"vaishnvi",
+      109:"shivani",
+      110:"sayali",
+      111:"poonam",
+      }
+print(info)
+for i,j in info.items():
+    print(i,j)

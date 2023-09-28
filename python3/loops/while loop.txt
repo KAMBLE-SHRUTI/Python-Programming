@@ -1,0 +1,34 @@
+#while looppp
+
+'''i=0
+while(i<5):
+    i=i+1
+    print("amplifiers",i)
+    #i=i+1
+
+    
+#2_exmple
+a=int(input("starting value"))
+b=int(input("ending value"))
+while(a<b):
+    print("heyyy",i)
+    a=i+3
+    
+print("done")'''
+
+
+'''#3_exmple
+
+i=0
+while(i<5):
+    a=int(input("frist value"))
+    b=int(input("second value"))
+    print(a+b)'''
+    
+i=0
+while(i<20):
+    if(i%2==0):
+        print("even num is ",i)
+    else:
+        print("odd num is ",i)
+    i+=1

@@ -1,0 +1,31 @@
+Comparison Operators
+
+#euqal to
+x = 5
+y = 3
+print(x == y)
+
+#not euqal to
+x = 5
+y = 3
+print(x != y)
+
+#grather than
+x = 5
+y = 3
+print(x > y)
+
+#less than
+x = 5
+y = 3
+print(x < y)
+
+#Greater than or equal to
+x = 5
+y = 3
+print(x >= y)
+
+#Less than or equal to
+x = 5
+y = 3
+print(x <= y)

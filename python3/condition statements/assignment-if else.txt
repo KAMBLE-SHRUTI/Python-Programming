@@ -1,0 +1,6 @@
+# finding even & oddd numbers using if-else
+a=int(input("enter your number"))
+if(a%2==0):
+    print("even number",a)
+else:
+    print("odd number",a)
